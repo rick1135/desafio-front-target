@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Target FrontEnd</title>
+    <link rel="stylesheet" href="assets/style/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Questões 1 a 5</h1>
+
+        <div class="questao">
+            <h2>Questão 1</h2>
+            <p>Observe o trecho de código abaixo: </p>
+            <code>int INDICE = 13, SOMA = 0, K = 0; Enquanto K &lt; INDICE faça { K = K + 1; SOMA = SOMA + K; } Imprimir(SOMA);</code>
+            <p>Ao final do processamento, qual será o valor da variável SOMA?</p>
+            <pre id="output1"></pre>
+        </div>
+
+        <div class="questao">
+            <h2>Questão 2</h2>
+            <p>Dado a sequência de Fibonacci, informe um número para verificar se pertence à sequência:</p>
+            <input type="number" id="fibonacciInput" placeholder="Digite um número">
+            <button onclick="quest2()">Verificar</button>
+            <pre id="output2"></pre>
+        </div>
+        
+
+        <div class="questao">
+            <h2>Questão 3</h2>
+            <p>Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, calcule o menor valor, o maior valor e o número de dias com faturamento acima da média.</p>
+            <pre id="output3"></pre>
+        </div>
+
+        <div class="questao">
+            <h2>Questão 4</h2>
+            <p>Calcule o percentual de representação de faturamento mensal de uma distribuidora por estado.</p>
+            <pre id="output4"></pre>
+        </div>
+
+        <div class="questao">
+            <h2>Questão 5</h2>
+            <p>Escreva um programa que inverta os caracteres de uma string.</p>
+            <input type="text" id="stringInput" placeholder="Digite uma string">
+            <button onclick="quest5()">Inverter</button>
+            <pre id="output5"></pre>
+        </div>
+        
+    </div>
+
+    <script type="module" src="assets/questoes/main.js"></script>
+    <script src="1.js"></script>
+    <script src="2.js"></script>
+    <script src="3.js"></script>
+    <script src="4.js"></script>
+    <script src="5.js"></script>
+</body>
+</html>
